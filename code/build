@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# build the required files
+gcc code.c -o code
+gcc reasonable.c -o reasonable
+gcc task5.c -o task5
+gcc fast.c -o fast -pthread

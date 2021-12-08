@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# give build file run permission
+chmod +x build
+
+# compile all c files required
+./build
+
+# get arguments
+args=("$@")
+
+# run the code with given parameters
+./code "$@"
